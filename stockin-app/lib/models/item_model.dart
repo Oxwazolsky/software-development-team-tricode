@@ -11,6 +11,14 @@ class ItemModel {
   final Timestamp? createdAt;
   final Timestamp? updatedAt;
 
+  bool get isLowStock {
+    return stock <= minStock;
+  }
+
+  bool get isOutOfStock {
+    return stock <= 0;
+  }
+
   ItemModel({
     required this.id,
     required this.name,
