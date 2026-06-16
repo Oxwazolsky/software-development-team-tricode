@@ -365,4 +365,4 @@ flutter run
 
 # 📄 License
 
-Project ini dibuat untuk keperluan pembelajaran dan pengembangan akademik.
+Project ini dibuat untuk keperluan pembelajaran dan pengembangan akademik pada mata kuliah Software Developer.
